@@ -30,3 +30,18 @@ If age is greater than or equal to 18, age >= 18 evaluates to True, which is equ
 If age is less than 18, age >= 18 evaluates to False, which is equivalent to 0 in indexing. Therefore, ("no", "yes")[0] returns "no".
 
 """
+
+#? --------------------------- Question ---------------------------
+
+marks = int(input("Enter the marks"))
+
+if(marks >=90):
+    grade = "A"
+elif(marks >=80 and marks < 90):
+    grade = "B"
+elif(marks >= 70 and marks < 80):
+    grade = "C"
+else:
+    grade = "D"
+
+print("Grade of the student :",grade)
