@@ -18,3 +18,6 @@ print(str1[3:])
 
 #slicing (Negative index)
 print(str5[-3:-1]) # -1 will be index of last char
+
+print("Capitalize :",str4.capitalize()) 
+print("Original string won't get affected :",str4)
