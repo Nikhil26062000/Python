@@ -11,7 +11,7 @@ print(marks[0:4])
 print(marks[-4:-1])
 
 
-#? Tuple
+#? Tuple : it is immutable
 tup = (1,3,5,4,2)
 print(type(tup))
 
