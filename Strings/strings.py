@@ -1,4 +1,7 @@
 
+
+#? string is immutable 
+
 str1 = "This is nik's lappi"
 str2 = 'hello this string \nwill be in multiline'
 str3 = """Hie I a m Nik"""
