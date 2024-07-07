@@ -12,7 +12,7 @@ print(type(collection))
 #* empty set
 collection2 =  set()
 
-#! collection2 = {} this is not empty set . This is dictionary
+#! collection2 = {} this is not correct way to make empty set . This is dictionary
 
 set1 = {1,2,3}
 set2 = {3,4,5}
